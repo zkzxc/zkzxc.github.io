@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[ZK's Blog]]></title>
+  <subtitle><![CDATA[You ever have that feeling where you're not sure if you're awake or still dreaming?]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://zkzxc.github.io/"/>
+  <updated>2015-06-07T17:13:01.654Z</updated>
+  <id>http://zkzxc.github.io/</id>
+  
+  <author>
+    <name><![CDATA[ZK]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[hexo搭建博客参考]]></title>
+    <link href="http://zkzxc.github.io/2015/06/04/hexo-reference/"/>
+    <id>http://zkzxc.github.io/2015/06/04/hexo-reference/</id>
+    <published>2015-06-04T12:08:40.000Z</published>
+    <updated>2015-06-07T17:13:01.654Z</updated>
+    <content type="html"><![CDATA[<p>经过一段时间的比较和学习，最终决定用<a href="http://hexo.io" target="_blank" rel="external">hexo</a>在<a href="https://github.com/" target="_blank" rel="external">github</a>上搭建自己的博客。没有太多的时间将自己搭建博客的过程整理成教程，在这里仅列出搭建博客时参考的别人写好的教程，以备不时之需，也在此对各位编写教程的前辈们表示感谢。</p>
+<ul>
+<li><a href="http://starsky.gitcafe.io/categories/hexo/" target="_blank" rel="external">璀璨星空 ● 无垠宇宙 - hexo分类</a></li>
+<li><a href="http://zipperary.com/categories/hexo/" target="_blank" rel="external">Zipperary’s blog - hexo分类</a></li>
+<li><a href="http://xuanwo.org/2015/03/26/hexo-intor/" target="_blank" rel="external">Xuanwo’s Blog - 史上最详细的Hexo博客搭建图文教程</a></li>
+<li><a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank" rel="external">不如 - hexo你的博客</a></li>
+<li><a href="http://blog.fens.me/hexo-blog-github/" target="_blank" rel="external">粉丝日志 - Hexo在github上构建免费的Web应用</a></li>
+<li><a href="http://hexo.io/docs/" target="_blank" rel="external">hexo - Documentation</a></li>
+</ul>
+<p>本博客用的主题为向明同学的<a href="https://github.com/xiangming/landscape-plus" target="_blank" rel="external">landscape-plus</a>(针对中国大陆地区对hexo官方主题landscape进行了优化)；图床使用的是<a href="http://www.qiniu.com/" target="_blank" rel="external">七牛</a>；评论系统使用的是<a href="http://duoshuo.com/" target="_blank" rel="external">多说</a>；站内搜索使用的是<a href="http://tinysou.com/" target="_blank" rel="external">微搜索</a>。在这里也一并表示感谢。</p>
+<p>另外，附上需要注意的两个小问题：</p>
+<ol>
+<li><p>在执行<code>hexo deploy</code>后，如果出现<code>error deployer not found:git</code>，则需要在终端中输入</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>当遇到其他问题时，不妨删除.deploy 和db.json 再重新生成试一试。</p>
+</li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>经过一段时间的比较和学习，最终决定用<a href="http://hexo.io" target="_blank" rel="external">hexo</a>在<a href="https://github.com/" target="_blank" rel="ext]]>
+    </summary>
+    
+      <category term="hexo" scheme="http://zkzxc.github.io/tags/hexo/"/>
+    
+      <category term="hexo" scheme="http://zkzxc.github.io/categories/hexo/"/>
+    
+  </entry>
+  
+</feed>
